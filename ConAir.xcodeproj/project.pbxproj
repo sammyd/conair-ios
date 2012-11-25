@@ -28,6 +28,10 @@
 		223B7C23166253130063654E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223B7BF3166253130063654E /* Foundation.framework */; };
 		223B7C2B166253130063654E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 223B7C29166253130063654E /* InfoPlist.strings */; };
 		223B7C2E166253130063654E /* ConAirTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 223B7C2D166253130063654E /* ConAirTests.m */; };
+		223B7C3D16626DB40063654E /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223B7C3916626DB40063654E /* Nunito-Bold.ttf */; };
+		223B7C3E16626DB40063654E /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223B7C3A16626DB40063654E /* Nunito-Light.ttf */; };
+		223B7C3F16626DB40063654E /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223B7C3B16626DB40063654E /* Nunito-Regular.ttf */; };
+		223B7C4016626DB40063654E /* ShinobiCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223B7C3C16626DB40063654E /* ShinobiCharts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +73,10 @@
 		223B7C2A166253130063654E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		223B7C2C166253130063654E /* ConAirTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConAirTests.h; sourceTree = "<group>"; };
 		223B7C2D166253130063654E /* ConAirTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConAirTests.m; sourceTree = "<group>"; };
+		223B7C3916626DB40063654E /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		223B7C3A16626DB40063654E /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		223B7C3B16626DB40063654E /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		223B7C3C16626DB40063654E /* ShinobiCharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShinobiCharts.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 				223B7BF2166253130063654E /* UIKit.framework in Frameworks */,
 				223B7BF4166253130063654E /* Foundation.framework in Frameworks */,
 				223B7BF6166253130063654E /* CoreGraphics.framework in Frameworks */,
+				223B7C4016626DB40063654E /* ShinobiCharts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +126,7 @@
 		223B7BF0166253130063654E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				223B7C3716626DB40063654E /* ShinobiCharts.embeddedframework */,
 				223B7BF1166253130063654E /* UIKit.framework */,
 				223B7BF3166253130063654E /* Foundation.framework */,
 				223B7BF5166253130063654E /* CoreGraphics.framework */,
@@ -175,6 +185,25 @@
 				223B7C29166253130063654E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		223B7C3716626DB40063654E /* ShinobiCharts.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				223B7C3816626DB40063654E /* Resources */,
+				223B7C3C16626DB40063654E /* ShinobiCharts.framework */,
+			);
+			path = ShinobiCharts.embeddedframework;
+			sourceTree = "<group>";
+		};
+		223B7C3816626DB40063654E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				223B7C3916626DB40063654E /* Nunito-Bold.ttf */,
+				223B7C3A16626DB40063654E /* Nunito-Light.ttf */,
+				223B7C3B16626DB40063654E /* Nunito-Regular.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +287,9 @@
 				223B7C12166253130063654E /* first@2x.png in Resources */,
 				223B7C17166253130063654E /* second.png in Resources */,
 				223B7C19166253130063654E /* second@2x.png in Resources */,
+				223B7C3D16626DB40063654E /* Nunito-Bold.ttf in Resources */,
+				223B7C3E16626DB40063654E /* Nunito-Light.ttf in Resources */,
+				223B7C3F16626DB40063654E /* Nunito-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +430,10 @@
 		223B7C32166253130063654E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ShinobiCharts.embeddedframework\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ConAir/ConAir-Prefix.pch";
 				INFOPLIST_FILE = "ConAir/ConAir-Info.plist";
@@ -409,6 +445,10 @@
 		223B7C33166253130063654E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ShinobiCharts.embeddedframework\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ConAir/ConAir-Prefix.pch";
 				INFOPLIST_FILE = "ConAir/ConAir-Info.plist";
