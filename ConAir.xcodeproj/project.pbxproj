@@ -32,6 +32,13 @@
 		223B7C3E16626DB40063654E /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223B7C3A16626DB40063654E /* Nunito-Light.ttf */; };
 		223B7C3F16626DB40063654E /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223B7C3B16626DB40063654E /* Nunito-Regular.ttf */; };
 		223B7C4016626DB40063654E /* ShinobiCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223B7C3C16626DB40063654E /* ShinobiCharts.framework */; };
+		223B7C4316627D5D0063654E /* VPYConairDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 223B7C4216627D5D0063654E /* VPYConairDataSource.m */; };
+		223B7C45166291B30063654E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223B7C44166291B30063654E /* QuartzCore.framework */; };
+		223B7C47166291EF0063654E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223B7C46166291EF0063654E /* OpenGLES.framework */; };
+		223B7C49166291F70063654E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223B7C48166291F70063654E /* Security.framework */; };
+		223B7C50166567020063654E /* NSDate+ISO8601.m in Sources */ = {isa = PBXBuildFile; fileRef = 223B7C4F166567020063654E /* NSDate+ISO8601.m */; };
+		22F1FFBE16696A3000C381EA /* ConAirSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22F1FFBD16696A3000C381EA /* ConAirSettings.plist */; };
+		22F1FFC216696A8100C381EA /* VPYShinobiLicense.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F1FFC116696A8100C381EA /* VPYShinobiLicense.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +84,16 @@
 		223B7C3A16626DB40063654E /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
 		223B7C3B16626DB40063654E /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
 		223B7C3C16626DB40063654E /* ShinobiCharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShinobiCharts.framework; sourceTree = "<group>"; };
+		223B7C4116627D5D0063654E /* VPYConairDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPYConairDataSource.h; sourceTree = "<group>"; };
+		223B7C4216627D5D0063654E /* VPYConairDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPYConairDataSource.m; sourceTree = "<group>"; };
+		223B7C44166291B30063654E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		223B7C46166291EF0063654E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		223B7C48166291F70063654E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		223B7C4E166567020063654E /* NSDate+ISO8601.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ISO8601.h"; sourceTree = "<group>"; };
+		223B7C4F166567020063654E /* NSDate+ISO8601.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ISO8601.m"; sourceTree = "<group>"; };
+		22F1FFBD16696A3000C381EA /* ConAirSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ConAirSettings.plist; sourceTree = "<group>"; };
+		22F1FFC016696A8100C381EA /* VPYShinobiLicense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPYShinobiLicense.h; sourceTree = "<group>"; };
+		22F1FFC116696A8100C381EA /* VPYShinobiLicense.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPYShinobiLicense.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +101,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				223B7C49166291F70063654E /* Security.framework in Frameworks */,
+				223B7C47166291EF0063654E /* OpenGLES.framework in Frameworks */,
+				223B7C45166291B30063654E /* QuartzCore.framework in Frameworks */,
 				223B7BF2166253130063654E /* UIKit.framework in Frameworks */,
 				223B7BF4166253130063654E /* Foundation.framework in Frameworks */,
 				223B7BF6166253130063654E /* CoreGraphics.framework in Frameworks */,
@@ -126,6 +146,9 @@
 		223B7BF0166253130063654E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				223B7C48166291F70063654E /* Security.framework */,
+				223B7C46166291EF0063654E /* OpenGLES.framework */,
+				223B7C44166291B30063654E /* QuartzCore.framework */,
 				223B7C3716626DB40063654E /* ShinobiCharts.embeddedframework */,
 				223B7BF1166253130063654E /* UIKit.framework */,
 				223B7BF3166253130063654E /* Foundation.framework */,
@@ -138,17 +161,13 @@
 		223B7BF7166253130063654E /* ConAir */ = {
 			isa = PBXGroup;
 			children = (
+				22F1FFC716696CCF00C381EA /* Views */,
+				22F1FFC616696CB300C381EA /* Controllers */,
+				22F1FFC516696C9F00C381EA /* Data */,
+				22F1FFC416696C7800C381EA /* Utilities */,
+				22F1FFC316696C6200C381EA /* Imagery */,
 				223B7C00166253130063654E /* VPYAppDelegate.h */,
 				223B7C01166253130063654E /* VPYAppDelegate.m */,
-				223B7C09166253130063654E /* MainStoryboard.storyboard */,
-				223B7C0C166253130063654E /* VPYFirstViewController.h */,
-				223B7C0D166253130063654E /* VPYFirstViewController.m */,
-				223B7C0F166253130063654E /* first.png */,
-				223B7C11166253130063654E /* first@2x.png */,
-				223B7C13166253130063654E /* VPYSecondViewController.h */,
-				223B7C14166253130063654E /* VPYSecondViewController.m */,
-				223B7C16166253130063654E /* second.png */,
-				223B7C18166253130063654E /* second@2x.png */,
 				223B7BF8166253130063654E /* Supporting Files */,
 			);
 			path = ConAir;
@@ -204,6 +223,57 @@
 				223B7C3B16626DB40063654E /* Nunito-Regular.ttf */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		22F1FFC316696C6200C381EA /* Imagery */ = {
+			isa = PBXGroup;
+			children = (
+				223B7C0F166253130063654E /* first.png */,
+				223B7C11166253130063654E /* first@2x.png */,
+				223B7C16166253130063654E /* second.png */,
+				223B7C18166253130063654E /* second@2x.png */,
+			);
+			name = Imagery;
+			sourceTree = "<group>";
+		};
+		22F1FFC416696C7800C381EA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				22F1FFBD16696A3000C381EA /* ConAirSettings.plist */,
+				223B7C4E166567020063654E /* NSDate+ISO8601.h */,
+				223B7C4F166567020063654E /* NSDate+ISO8601.m */,
+				22F1FFC016696A8100C381EA /* VPYShinobiLicense.h */,
+				22F1FFC116696A8100C381EA /* VPYShinobiLicense.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		22F1FFC516696C9F00C381EA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				223B7C4116627D5D0063654E /* VPYConairDataSource.h */,
+				223B7C4216627D5D0063654E /* VPYConairDataSource.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		22F1FFC616696CB300C381EA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				223B7C0C166253130063654E /* VPYFirstViewController.h */,
+				223B7C0D166253130063654E /* VPYFirstViewController.m */,
+				223B7C13166253130063654E /* VPYSecondViewController.h */,
+				223B7C14166253130063654E /* VPYSecondViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		22F1FFC716696CCF00C381EA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				223B7C09166253130063654E /* MainStoryboard.storyboard */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +360,7 @@
 				223B7C3D16626DB40063654E /* Nunito-Bold.ttf in Resources */,
 				223B7C3E16626DB40063654E /* Nunito-Light.ttf in Resources */,
 				223B7C3F16626DB40063654E /* Nunito-Regular.ttf in Resources */,
+				22F1FFBE16696A3000C381EA /* ConAirSettings.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +399,9 @@
 				223B7C02166253130063654E /* VPYAppDelegate.m in Sources */,
 				223B7C0E166253130063654E /* VPYFirstViewController.m in Sources */,
 				223B7C15166253130063654E /* VPYSecondViewController.m in Sources */,
+				223B7C4316627D5D0063654E /* VPYConairDataSource.m in Sources */,
+				223B7C50166567020063654E /* NSDate+ISO8601.m in Sources */,
+				22F1FFC216696A8100C381EA /* VPYShinobiLicense.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +584,7 @@
 				223B7C33166253130063654E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		223B7C34166253130063654E /* Build configuration list for PBXNativeTarget "ConAirTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +593,7 @@
 				223B7C36166253130063654E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

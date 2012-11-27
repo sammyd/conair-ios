@@ -1,6 +1,8 @@
 # Shinobi should be added by the end user
 ShinobiCharts.embeddedframework
 
+# We ignore the settings file too
+ConAir/ConAirSettings.plist
 
 .DS_Store
 *~

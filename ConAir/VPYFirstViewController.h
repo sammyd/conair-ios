@@ -10,4 +10,6 @@
 
 @interface VPYFirstViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *lblTemperature;
+
 @end
