@@ -27,23 +27,21 @@
     dataSource = [VPYConairDataSource sharedDataSource];
     [dataSource addObserver:self forKeyPath:@"data" options:NSKeyValueObservingOptionNew context:NULL];
     
-    chart = [[ShinobiChart alloc] initWithFrame:self.view.bounds];
+    chart = [[ShinobiChart alloc] initWithFrame:self.view.bounds withPrimaryXAxisType:SChartAxisTypeDateTime withPrimaryYAxisType:SChartAxisTypeNumber];
     chart.licenseKey = [VPYShinobiLicense getShinobiLicenseKey];
     chart.datasource = dataSource;
-    chart.theme = [SChartMidnightTheme new];
+    chart.theme = [SChartDarkTheme new];
     
-    SChartNumberAxis *xAxis = [[SChartNumberAxis alloc] init];
-    xAxis.enableGesturePanning = YES;
-    xAxis.enableGestureZooming = YES;
-    xAxis.enableMomentumPanning = YES;
-    xAxis.enableMomentumZooming = YES;
-    SChartNumberAxis *yAxis = [[SChartNumberAxis alloc] init];
-    yAxis.enableGesturePanning = YES;
-    yAxis.enableGestureZooming = YES;
-    yAxis.enableMomentumPanning = YES;
-    yAxis.enableMomentumZooming = YES;
-    chart.xAxis = xAxis;
-    chart.yAxis = yAxis;
+    chart.xAxis.enableGesturePanning = YES;
+    chart.xAxis.enableGestureZooming = YES;
+    chart.xAxis.enableMomentumPanning = YES;
+    chart.xAxis.enableMomentumZooming = YES;
+    chart.yAxis.enableGesturePanning = YES;
+    chart.yAxis.enableGestureZooming = YES;
+    chart.yAxis.enableMomentumPanning = YES;
+    chart.yAxis.enableMomentumZooming = YES;
+    chart.yAxis.rangePaddingHigh = @1;
+    chart.yAxis.rangePaddingLow = @1;
     
     chart.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     

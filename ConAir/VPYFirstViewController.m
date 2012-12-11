@@ -24,13 +24,19 @@
     dataSource = [VPYConairDataSource sharedDataSource];
     
     [dataSource addObserver:self forKeyPath:@"data" options:NSKeyValueObservingOptionNew context:NULL];
-    //[self updateTemperatureLabel];
-    
+    self.lblTemperature.text = @"updating...";
 }
 
 - (void)updateTemperatureLabel
 {
-    self.lblTemperature.text = [NSString stringWithFormat:@"%2.1f°C", [[dataSource.data lastObject] floatValue]];
+    self.lblTemperature.text = [NSString stringWithFormat:@"%2.1f°C", [[dataSource.data lastObject][@"temperature"] floatValue]];
+    static NSDateFormatter *dateFormatter = nil;
+    if (dateFormatter == nil) {
+        dateFormatter = [[NSDateFormatter alloc] init];
+        [dateFormatter setTimeStyle:NSDateFormatterFullStyle];
+        [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss Z"];
+    }
+    self.lblLastUpdated.text = [dateFormatter stringFromDate:[dataSource.data lastObject][@"ts"]];
 }
 
 - (void)dealloc
@@ -46,6 +52,7 @@
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 {
+    NSLog(@"Fired");
     [self updateTemperatureLabel];
 }
 

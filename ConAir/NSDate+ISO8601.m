@@ -22,7 +22,7 @@
         NSTimeZone *timeZone = [NSTimeZone localTimeZone];
         int offset = [timeZone secondsFromGMT];
         
-        NSMutableString *strFormat = [NSMutableString stringWithString:@"yyyyMMdd'T'HH:mm:ss"];
+        NSMutableString *strFormat = [NSMutableString stringWithString:@"yyyy'-'MM'-'dd'T'HH:mm:ss"];
         offset /= 60; // We want the offset in minutes instead
         if (offset == 0)
             [strFormat appendString:@"Z"];

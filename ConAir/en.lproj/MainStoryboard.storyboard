@@ -17,26 +17,34 @@
                                     <constraint firstAttribute="height" constant="147" id="RhG-ei-rtF"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Latest temperature" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zov-kq-w2c">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="last updated" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KPk-7j-4On">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ebQ-xU-LRu" firstAttribute="centerY" secondItem="16" secondAttribute="centerY" type="default" id="77f-sq-Mns"/>
                             <constraint firstAttribute="trailing" secondItem="ebQ-xU-LRu" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="aRE-yC-Yuy"/>
                             <constraint firstItem="ebQ-xU-LRu" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="kL5-yA-GlQ"/>
+                            <constraint firstItem="KPk-7j-4On" firstAttribute="baseline" secondItem="ebQ-xU-LRu" secondAttribute="baseline" type="default" id="mQ4-hj-XhS"/>
+                            <constraint firstAttribute="trailing" secondItem="KPk-7j-4On" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="suK-rO-jnK"/>
                             <constraint firstItem="Zov-kq-w2c" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="wK1-gJ-V0o"/>
                             <constraint firstItem="Zov-kq-w2c" firstAttribute="top" secondItem="ebQ-xU-LRu" secondAttribute="top" type="default" id="ywF-gX-PyS"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Temperature" image="first" id="7"/>
                     <connections>
+                        <outlet property="lblLastUpdated" destination="KPk-7j-4On" id="FbD-wO-oW9"/>
                         <outlet property="lblTemperature" destination="ebQ-xU-LRu" id="xmm-rl-vj4"/>
                     </connections>
                 </viewController>
@@ -90,6 +98,7 @@
         <class className="VPYFirstViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/VPYFirstViewController.h"/>
             <relationships>
+                <relationship kind="outlet" name="lblLastUpdated" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="lblTemperature" candidateClass="UILabel"/>
             </relationships>
         </class>

@@ -11,8 +11,12 @@
 
 @interface VPYConairDataSource : NSObject <SChartDatasource>
 
-@property (nonatomic, strong, readonly) NSArray *data;
+@property (nonatomic, strong, readonly) NSMutableArray *data;
+@property (nonatomic, assign) int pollingPeriod;
 
 + (VPYConairDataSource*)sharedDataSource;
+
+- (void)startPolling;
+- (void)stopPolling;
 
 @end
