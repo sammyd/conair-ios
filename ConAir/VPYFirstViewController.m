@@ -52,8 +52,9 @@
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 {
-    NSLog(@"Fired");
-    [self updateTemperatureLabel];
+    if([keyPath isEqualToString:@"data"] && [object isEqual:dataSource]) {
+        [self updateTemperatureLabel];
+    }
 }
 
 @end
