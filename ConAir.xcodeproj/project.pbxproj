@@ -37,8 +37,8 @@
 		223B7C47166291EF0063654E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223B7C46166291EF0063654E /* OpenGLES.framework */; };
 		223B7C49166291F70063654E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223B7C48166291F70063654E /* Security.framework */; };
 		223B7C50166567020063654E /* NSDate+ISO8601.m in Sources */ = {isa = PBXBuildFile; fileRef = 223B7C4F166567020063654E /* NSDate+ISO8601.m */; };
-		22F1FFBE16696A3000C381EA /* ConAirSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22F1FFBD16696A3000C381EA /* ConAirSettings.plist */; };
 		22F1FFC216696A8100C381EA /* VPYShinobiLicense.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F1FFC116696A8100C381EA /* VPYShinobiLicense.m */; };
+		F4BE247016BC118000E8D9BE /* ConAirSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4BE246F16BC118000E8D9BE /* ConAirSettings.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,9 +91,9 @@
 		223B7C48166291F70063654E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		223B7C4E166567020063654E /* NSDate+ISO8601.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ISO8601.h"; sourceTree = "<group>"; };
 		223B7C4F166567020063654E /* NSDate+ISO8601.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ISO8601.m"; sourceTree = "<group>"; };
-		22F1FFBD16696A3000C381EA /* ConAirSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ConAirSettings.plist; sourceTree = "<group>"; };
 		22F1FFC016696A8100C381EA /* VPYShinobiLicense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPYShinobiLicense.h; sourceTree = "<group>"; };
 		22F1FFC116696A8100C381EA /* VPYShinobiLicense.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPYShinobiLicense.m; sourceTree = "<group>"; };
+		F4BE246F16BC118000E8D9BE /* ConAirSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ConAirSettings.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,11 +239,11 @@
 		22F1FFC416696C7800C381EA /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				22F1FFBD16696A3000C381EA /* ConAirSettings.plist */,
 				223B7C4E166567020063654E /* NSDate+ISO8601.h */,
 				223B7C4F166567020063654E /* NSDate+ISO8601.m */,
 				22F1FFC016696A8100C381EA /* VPYShinobiLicense.h */,
 				22F1FFC116696A8100C381EA /* VPYShinobiLicense.m */,
+				F4BE246F16BC118000E8D9BE /* ConAirSettings.plist */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -360,7 +360,7 @@
 				223B7C3D16626DB40063654E /* Nunito-Bold.ttf in Resources */,
 				223B7C3E16626DB40063654E /* Nunito-Light.ttf in Resources */,
 				223B7C3F16626DB40063654E /* Nunito-Regular.ttf in Resources */,
-				22F1FFBE16696A3000C381EA /* ConAirSettings.plist in Resources */,
+				F4BE247016BC118000E8D9BE /* ConAirSettings.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
