@@ -96,6 +96,9 @@
 
 - (void)startPolling
 {
+    // Let's make sure we aren't already polling
+    [self stopPolling];
+    // And now let's start the timer
     pollingTimer = [NSTimer scheduledTimerWithTimeInterval:self.pollingPeriod target:self selector:@selector(collectDataFromInternet) userInfo:nil repeats:YES];
 }
 
