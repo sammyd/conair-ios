@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VPYFirstViewController : UIViewController
+@interface FirstViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UILabel *lblTemperature;
 @property (weak, nonatomic) IBOutlet UILabel *lblLastUpdated;

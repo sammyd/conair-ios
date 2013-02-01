@@ -9,12 +9,12 @@
 #import <Foundation/Foundation.h>
 #import <ShinobiCharts/ShinobiChart.h>
 
-@interface VPYConairDataSource : NSObject <SChartDatasource>
+@interface ConairDataSource : NSObject <SChartDatasource>
 
 @property (nonatomic, strong, readonly) NSMutableArray *data;
 @property (nonatomic, assign) int pollingPeriod;
 
-+ (VPYConairDataSource*)sharedDataSource;
++ (ConairDataSource*)sharedDataSource;
 
 - (void)startPolling;
 - (void)stopPolling;

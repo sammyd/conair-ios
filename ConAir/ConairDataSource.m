@@ -6,10 +6,10 @@
 //  Copyright (c) 2012 Sam Davies. All rights reserved.
 //
 
-#import "VPYConairDataSource.h"
+#import "ConairDataSource.h"
 #import "NSDate+ISO8601.h"
 
-@interface VPYConairDataSource () {
+@interface ConairDataSource () {
     NSTimer *pollingTimer;
 }
 
@@ -17,11 +17,11 @@
 
 @end
 
-@implementation VPYConairDataSource
+@implementation ConairDataSource
 
-+ (VPYConairDataSource *)sharedDataSource
++ (ConairDataSource *)sharedDataSource
 {
-    static VPYConairDataSource *sharedDataSource = nil;
+    static ConairDataSource *sharedDataSource = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         sharedDataSource = [[self alloc] init];

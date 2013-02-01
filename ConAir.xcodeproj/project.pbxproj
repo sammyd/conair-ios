@@ -12,15 +12,15 @@
 		223B7BF6166253130063654E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223B7BF5166253130063654E /* CoreGraphics.framework */; };
 		223B7BFC166253130063654E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 223B7BFA166253130063654E /* InfoPlist.strings */; };
 		223B7BFE166253130063654E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 223B7BFD166253130063654E /* main.m */; };
-		223B7C02166253130063654E /* VPYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 223B7C01166253130063654E /* VPYAppDelegate.m */; };
+		223B7C02166253130063654E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 223B7C01166253130063654E /* AppDelegate.m */; };
 		223B7C04166253130063654E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 223B7C03166253130063654E /* Default.png */; };
 		223B7C06166253130063654E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 223B7C05166253130063654E /* Default@2x.png */; };
 		223B7C08166253130063654E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 223B7C07166253130063654E /* Default-568h@2x.png */; };
 		223B7C0B166253130063654E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223B7C09166253130063654E /* MainStoryboard.storyboard */; };
-		223B7C0E166253130063654E /* VPYFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223B7C0D166253130063654E /* VPYFirstViewController.m */; };
+		223B7C0E166253130063654E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223B7C0D166253130063654E /* FirstViewController.m */; };
 		223B7C10166253130063654E /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 223B7C0F166253130063654E /* first.png */; };
 		223B7C12166253130063654E /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 223B7C11166253130063654E /* first@2x.png */; };
-		223B7C15166253130063654E /* VPYSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223B7C14166253130063654E /* VPYSecondViewController.m */; };
+		223B7C15166253130063654E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223B7C14166253130063654E /* SecondViewController.m */; };
 		223B7C17166253130063654E /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 223B7C16166253130063654E /* second.png */; };
 		223B7C19166253130063654E /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 223B7C18166253130063654E /* second@2x.png */; };
 		223B7C21166253130063654E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223B7C20166253130063654E /* SenTestingKit.framework */; };
@@ -28,17 +28,17 @@
 		223B7C23166253130063654E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223B7BF3166253130063654E /* Foundation.framework */; };
 		223B7C2B166253130063654E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 223B7C29166253130063654E /* InfoPlist.strings */; };
 		223B7C2E166253130063654E /* ConAirTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 223B7C2D166253130063654E /* ConAirTests.m */; };
-		223B7C3D16626DB40063654E /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223B7C3916626DB40063654E /* Nunito-Bold.ttf */; };
-		223B7C3E16626DB40063654E /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223B7C3A16626DB40063654E /* Nunito-Light.ttf */; };
-		223B7C3F16626DB40063654E /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223B7C3B16626DB40063654E /* Nunito-Regular.ttf */; };
-		223B7C4016626DB40063654E /* ShinobiCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223B7C3C16626DB40063654E /* ShinobiCharts.framework */; };
-		223B7C4316627D5D0063654E /* VPYConairDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 223B7C4216627D5D0063654E /* VPYConairDataSource.m */; };
+		223B7C4316627D5D0063654E /* ConairDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 223B7C4216627D5D0063654E /* ConairDataSource.m */; };
 		223B7C45166291B30063654E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223B7C44166291B30063654E /* QuartzCore.framework */; };
 		223B7C47166291EF0063654E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223B7C46166291EF0063654E /* OpenGLES.framework */; };
 		223B7C49166291F70063654E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223B7C48166291F70063654E /* Security.framework */; };
 		223B7C50166567020063654E /* NSDate+ISO8601.m in Sources */ = {isa = PBXBuildFile; fileRef = 223B7C4F166567020063654E /* NSDate+ISO8601.m */; };
-		22F1FFC216696A8100C381EA /* VPYShinobiLicense.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F1FFC116696A8100C381EA /* VPYShinobiLicense.m */; };
+		22F1FFC216696A8100C381EA /* ShinobiLicense.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F1FFC116696A8100C381EA /* ShinobiLicense.m */; };
 		F4BE247016BC118000E8D9BE /* ConAirSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4BE246F16BC118000E8D9BE /* ConAirSettings.plist */; };
+		F4BE247716BC18E200E8D9BE /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4BE247316BC18E200E8D9BE /* Nunito-Bold.ttf */; };
+		F4BE247816BC18E200E8D9BE /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4BE247416BC18E200E8D9BE /* Nunito-Light.ttf */; };
+		F4BE247916BC18E200E8D9BE /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4BE247516BC18E200E8D9BE /* Nunito-Regular.ttf */; };
+		F4BE247A16BC18E200E8D9BE /* ShinobiCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BE247616BC18E200E8D9BE /* ShinobiCharts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,18 +60,18 @@
 		223B7BFB166253130063654E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		223B7BFD166253130063654E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		223B7BFF166253130063654E /* ConAir-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConAir-Prefix.pch"; sourceTree = "<group>"; };
-		223B7C00166253130063654E /* VPYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VPYAppDelegate.h; sourceTree = "<group>"; };
-		223B7C01166253130063654E /* VPYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPYAppDelegate.m; sourceTree = "<group>"; };
+		223B7C00166253130063654E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		223B7C01166253130063654E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		223B7C03166253130063654E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		223B7C05166253130063654E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		223B7C07166253130063654E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		223B7C0A166253130063654E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		223B7C0C166253130063654E /* VPYFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VPYFirstViewController.h; sourceTree = "<group>"; };
-		223B7C0D166253130063654E /* VPYFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPYFirstViewController.m; sourceTree = "<group>"; };
+		223B7C0C166253130063654E /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		223B7C0D166253130063654E /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		223B7C0F166253130063654E /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		223B7C11166253130063654E /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		223B7C13166253130063654E /* VPYSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VPYSecondViewController.h; sourceTree = "<group>"; };
-		223B7C14166253130063654E /* VPYSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPYSecondViewController.m; sourceTree = "<group>"; };
+		223B7C13166253130063654E /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		223B7C14166253130063654E /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		223B7C16166253130063654E /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		223B7C18166253130063654E /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		223B7C1F166253130063654E /* ConAirTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConAirTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,20 +80,20 @@
 		223B7C2A166253130063654E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		223B7C2C166253130063654E /* ConAirTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConAirTests.h; sourceTree = "<group>"; };
 		223B7C2D166253130063654E /* ConAirTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConAirTests.m; sourceTree = "<group>"; };
-		223B7C3916626DB40063654E /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
-		223B7C3A16626DB40063654E /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
-		223B7C3B16626DB40063654E /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
-		223B7C3C16626DB40063654E /* ShinobiCharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShinobiCharts.framework; sourceTree = "<group>"; };
-		223B7C4116627D5D0063654E /* VPYConairDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPYConairDataSource.h; sourceTree = "<group>"; };
-		223B7C4216627D5D0063654E /* VPYConairDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPYConairDataSource.m; sourceTree = "<group>"; };
+		223B7C4116627D5D0063654E /* ConairDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConairDataSource.h; sourceTree = "<group>"; };
+		223B7C4216627D5D0063654E /* ConairDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConairDataSource.m; sourceTree = "<group>"; };
 		223B7C44166291B30063654E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		223B7C46166291EF0063654E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		223B7C48166291F70063654E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		223B7C4E166567020063654E /* NSDate+ISO8601.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ISO8601.h"; sourceTree = "<group>"; };
 		223B7C4F166567020063654E /* NSDate+ISO8601.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ISO8601.m"; sourceTree = "<group>"; };
-		22F1FFC016696A8100C381EA /* VPYShinobiLicense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPYShinobiLicense.h; sourceTree = "<group>"; };
-		22F1FFC116696A8100C381EA /* VPYShinobiLicense.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPYShinobiLicense.m; sourceTree = "<group>"; };
+		22F1FFC016696A8100C381EA /* ShinobiLicense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShinobiLicense.h; sourceTree = "<group>"; };
+		22F1FFC116696A8100C381EA /* ShinobiLicense.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShinobiLicense.m; sourceTree = "<group>"; };
 		F4BE246F16BC118000E8D9BE /* ConAirSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ConAirSettings.plist; sourceTree = "<group>"; };
+		F4BE247316BC18E200E8D9BE /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		F4BE247416BC18E200E8D9BE /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		F4BE247516BC18E200E8D9BE /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		F4BE247616BC18E200E8D9BE /* ShinobiCharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShinobiCharts.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 				223B7BF2166253130063654E /* UIKit.framework in Frameworks */,
 				223B7BF4166253130063654E /* Foundation.framework in Frameworks */,
 				223B7BF6166253130063654E /* CoreGraphics.framework in Frameworks */,
-				223B7C4016626DB40063654E /* ShinobiCharts.framework in Frameworks */,
+				F4BE247A16BC18E200E8D9BE /* ShinobiCharts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,10 +146,10 @@
 		223B7BF0166253130063654E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F4BE247116BC18E200E8D9BE /* ShinobiCharts.embeddedframework */,
 				223B7C48166291F70063654E /* Security.framework */,
 				223B7C46166291EF0063654E /* OpenGLES.framework */,
 				223B7C44166291B30063654E /* QuartzCore.framework */,
-				223B7C3716626DB40063654E /* ShinobiCharts.embeddedframework */,
 				223B7BF1166253130063654E /* UIKit.framework */,
 				223B7BF3166253130063654E /* Foundation.framework */,
 				223B7BF5166253130063654E /* CoreGraphics.framework */,
@@ -166,8 +166,8 @@
 				22F1FFC516696C9F00C381EA /* Data */,
 				22F1FFC416696C7800C381EA /* Utilities */,
 				22F1FFC316696C6200C381EA /* Imagery */,
-				223B7C00166253130063654E /* VPYAppDelegate.h */,
-				223B7C01166253130063654E /* VPYAppDelegate.m */,
+				223B7C00166253130063654E /* AppDelegate.h */,
+				223B7C01166253130063654E /* AppDelegate.m */,
 				223B7BF8166253130063654E /* Supporting Files */,
 			);
 			path = ConAir;
@@ -206,25 +206,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		223B7C3716626DB40063654E /* ShinobiCharts.embeddedframework */ = {
-			isa = PBXGroup;
-			children = (
-				223B7C3816626DB40063654E /* Resources */,
-				223B7C3C16626DB40063654E /* ShinobiCharts.framework */,
-			);
-			path = ShinobiCharts.embeddedframework;
-			sourceTree = "<group>";
-		};
-		223B7C3816626DB40063654E /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				223B7C3916626DB40063654E /* Nunito-Bold.ttf */,
-				223B7C3A16626DB40063654E /* Nunito-Light.ttf */,
-				223B7C3B16626DB40063654E /* Nunito-Regular.ttf */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		22F1FFC316696C6200C381EA /* Imagery */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,8 +222,8 @@
 			children = (
 				223B7C4E166567020063654E /* NSDate+ISO8601.h */,
 				223B7C4F166567020063654E /* NSDate+ISO8601.m */,
-				22F1FFC016696A8100C381EA /* VPYShinobiLicense.h */,
-				22F1FFC116696A8100C381EA /* VPYShinobiLicense.m */,
+				22F1FFC016696A8100C381EA /* ShinobiLicense.h */,
+				22F1FFC116696A8100C381EA /* ShinobiLicense.m */,
 				F4BE246F16BC118000E8D9BE /* ConAirSettings.plist */,
 			);
 			name = Utilities;
@@ -251,8 +232,8 @@
 		22F1FFC516696C9F00C381EA /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				223B7C4116627D5D0063654E /* VPYConairDataSource.h */,
-				223B7C4216627D5D0063654E /* VPYConairDataSource.m */,
+				223B7C4116627D5D0063654E /* ConairDataSource.h */,
+				223B7C4216627D5D0063654E /* ConairDataSource.m */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -260,10 +241,10 @@
 		22F1FFC616696CB300C381EA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				223B7C0C166253130063654E /* VPYFirstViewController.h */,
-				223B7C0D166253130063654E /* VPYFirstViewController.m */,
-				223B7C13166253130063654E /* VPYSecondViewController.h */,
-				223B7C14166253130063654E /* VPYSecondViewController.m */,
+				223B7C0C166253130063654E /* FirstViewController.h */,
+				223B7C0D166253130063654E /* FirstViewController.m */,
+				223B7C13166253130063654E /* SecondViewController.h */,
+				223B7C14166253130063654E /* SecondViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -274,6 +255,25 @@
 				223B7C09166253130063654E /* MainStoryboard.storyboard */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		F4BE247116BC18E200E8D9BE /* ShinobiCharts.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				F4BE247216BC18E200E8D9BE /* Resources */,
+				F4BE247616BC18E200E8D9BE /* ShinobiCharts.framework */,
+			);
+			path = ShinobiCharts.embeddedframework;
+			sourceTree = "<group>";
+		};
+		F4BE247216BC18E200E8D9BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4BE247316BC18E200E8D9BE /* Nunito-Bold.ttf */,
+				F4BE247416BC18E200E8D9BE /* Nunito-Light.ttf */,
+				F4BE247516BC18E200E8D9BE /* Nunito-Regular.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,10 +357,10 @@
 				223B7C12166253130063654E /* first@2x.png in Resources */,
 				223B7C17166253130063654E /* second.png in Resources */,
 				223B7C19166253130063654E /* second@2x.png in Resources */,
-				223B7C3D16626DB40063654E /* Nunito-Bold.ttf in Resources */,
-				223B7C3E16626DB40063654E /* Nunito-Light.ttf in Resources */,
-				223B7C3F16626DB40063654E /* Nunito-Regular.ttf in Resources */,
 				F4BE247016BC118000E8D9BE /* ConAirSettings.plist in Resources */,
+				F4BE247716BC18E200E8D9BE /* Nunito-Bold.ttf in Resources */,
+				F4BE247816BC18E200E8D9BE /* Nunito-Light.ttf in Resources */,
+				F4BE247916BC18E200E8D9BE /* Nunito-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,12 +396,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				223B7BFE166253130063654E /* main.m in Sources */,
-				223B7C02166253130063654E /* VPYAppDelegate.m in Sources */,
-				223B7C0E166253130063654E /* VPYFirstViewController.m in Sources */,
-				223B7C15166253130063654E /* VPYSecondViewController.m in Sources */,
-				223B7C4316627D5D0063654E /* VPYConairDataSource.m in Sources */,
+				223B7C02166253130063654E /* AppDelegate.m in Sources */,
+				223B7C0E166253130063654E /* FirstViewController.m in Sources */,
+				223B7C15166253130063654E /* SecondViewController.m in Sources */,
+				223B7C4316627D5D0063654E /* ConairDataSource.m in Sources */,
 				223B7C50166567020063654E /* NSDate+ISO8601.m in Sources */,
-				22F1FFC216696A8100C381EA /* VPYShinobiLicense.m in Sources */,
+				22F1FFC216696A8100C381EA /* ShinobiLicense.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

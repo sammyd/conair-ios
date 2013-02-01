@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface VPYShinobiLicense : NSObject
+@interface ShinobiLicense : NSObject
 
 + (NSString *)getShinobiLicenseKey;
 

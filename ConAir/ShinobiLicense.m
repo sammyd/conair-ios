@@ -6,9 +6,9 @@
 //  Copyright (c) 2012 Sam Davies. All rights reserved.
 //
 
-#import "VPYShinobiLicense.h"
+#import "ShinobiLicense.h"
 
-@implementation VPYShinobiLicense
+@implementation ShinobiLicense
 
 + (NSString *)getShinobiLicenseKey
 {

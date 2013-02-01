@@ -6,29 +6,29 @@
 //  Copyright (c) 2012 Sam Davies. All rights reserved.
 //
 
-#import "VPYSecondViewController.h"
+#import "SecondViewController.h"
 #import <ShinobiCharts/ShinobiChart.h>
-#import "VPYConairDataSource.h"
-#import "VPYShinobiLicense.h"
+#import "ConairDataSource.h"
+#import "ShinobiLicense.h"
 
-@interface VPYSecondViewController () {
+@interface SecondViewController () {
     ShinobiChart *chart;
-    VPYConairDataSource *dataSource;
+    ConairDataSource *dataSource;
 }
 
 @end
 
-@implementation VPYSecondViewController
+@implementation SecondViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    dataSource = [VPYConairDataSource sharedDataSource];
+    dataSource = [ConairDataSource sharedDataSource];
     [dataSource addObserver:self forKeyPath:@"data" options:NSKeyValueObservingOptionNew context:NULL];
     
     chart = [[ShinobiChart alloc] initWithFrame:self.view.bounds withPrimaryXAxisType:SChartAxisTypeDateTime withPrimaryYAxisType:SChartAxisTypeNumber];
-    chart.licenseKey = [VPYShinobiLicense getShinobiLicenseKey];
+    chart.licenseKey = [ShinobiLicense getShinobiLicenseKey];
     chart.datasource = dataSource;
     chart.theme = [SChartDarkTheme new];
     

@@ -6,17 +6,17 @@
 //  Copyright (c) 2012 Sam Davies. All rights reserved.
 //
 
-#import "VPYAppDelegate.h"
-#import "VPYConairDataSource.h"
+#import "AppDelegate.h"
+#import "ConairDataSource.h"
 
-@implementation VPYAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
     
     // Start polling for data
-    [[VPYConairDataSource sharedDataSource] startPolling];
+    [[ConairDataSource sharedDataSource] startPolling];
     
     return YES;
 }
@@ -27,7 +27,7 @@
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
     
     // Stop polling for data
-    [[VPYConairDataSource sharedDataSource] stopPolling];
+    [[ConairDataSource sharedDataSource] stopPolling];
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application

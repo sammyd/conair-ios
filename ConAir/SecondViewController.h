@@ -1,5 +1,5 @@
 //
-//  VPYAppDelegate.h
+//  VPYSecondViewController.h
 //  ConAir
 //
 //  Created by Sam Davies on 25/11/2012.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VPYAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface SecondViewController : UIViewController
 
 @end

@@ -6,22 +6,22 @@
 //  Copyright (c) 2012 Sam Davies. All rights reserved.
 //
 
-#import "VPYFirstViewController.h"
-#import "VPYConairDataSource.h"
+#import "FirstViewController.h"
+#import "ConairDataSource.h"
 
-@interface VPYFirstViewController () {
-    VPYConairDataSource *dataSource;
+@interface FirstViewController () {
+    ConairDataSource *dataSource;
 }
 
 @end
 
-@implementation VPYFirstViewController
+@implementation FirstViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    dataSource = [VPYConairDataSource sharedDataSource];
+    dataSource = [ConairDataSource sharedDataSource];
     
     [dataSource addObserver:self forKeyPath:@"data" options:NSKeyValueObservingOptionNew context:NULL];
     self.lblTemperature.text = @"updating...";
